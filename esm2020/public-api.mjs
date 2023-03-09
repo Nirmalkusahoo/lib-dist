@@ -1,0 +1,6 @@
+/*
+ * Public API Surface of my-lib
+ */
+export * from './lib/my-lib.module';
+export * from './lib/components/stand-alone/stand-alone.component';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL215LWxpYi9zcmMvcHVibGljLWFwaS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7R0FFRztBQUVILGNBQWMscUJBQXFCLENBQUM7QUFDcEMsY0FBYyxvREFBb0QsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qXG4gKiBQdWJsaWMgQVBJIFN1cmZhY2Ugb2YgbXktbGliXG4gKi9cblxuZXhwb3J0ICogZnJvbSAnLi9saWIvbXktbGliLm1vZHVsZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9jb21wb25lbnRzL3N0YW5kLWFsb25lL3N0YW5kLWFsb25lLmNvbXBvbmVudCc7XG4iXX0=
