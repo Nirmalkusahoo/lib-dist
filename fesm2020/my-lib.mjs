@@ -13,7 +13,8 @@ class ParentComponent {
         this.headerBannerInput = new CommonHeaderBannerInput();
         this.route.params.subscribe((params) => {
             this.artifactDetailsService
-                .getArtifactDetails(params['id'], ArtifactType.Event)
+                // .getArtifactDetails(params['id'], ArtifactType.Event)
+                .getArtifactDetails(params['id'], 'Solution3') // artifactType should be added from  ArtifactType enum ex: ArtifactType.Event
                 .subscribe((data) => {
                 if (data) {
                     this.headerBannerInput.title = data.DisplayName;
@@ -21,11 +22,6 @@ class ParentComponent {
                     this.headerBannerInput.iconName =
                         this.artifactDetailsService.getArtifactIconName(data.Type);
                     // eslint-disable-next-line
-                    /*       this.headerBannerInput.parentTechnicalName =
-                             this.artifactDetailsService.ContentPackages[0]['TechnicalName'];
-                           // eslint-disable-next-line
-                           this.headerBannerInput.parentDisplayName =
-                             this.artifactDetailsService.ContentPackages[0]['DisplayName'];*/
                     this.headerBannerInput.isShortTextHidden = true;
                 }
             });

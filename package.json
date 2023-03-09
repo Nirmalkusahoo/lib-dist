@@ -1,6 +1,6 @@
 {
   "name": "my-lib",
-  "version": "0.0.0-watch+1678171484942",
+  "version": "0.0.0-watch+1678361419625",
   "peerDependencies": {
     "@angular/common": "^14.2.0",
     "@angular/core": "^14.2.0"
