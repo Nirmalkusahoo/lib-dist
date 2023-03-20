@@ -1,0 +1,15 @@
+import { Component } from '@angular/core';
+import * as i0 from "@angular/core";
+import * as i1 from "@angular/router";
+export class ContentComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+ContentComponent.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "14.3.0", ngImport: i0, type: ContentComponent, deps: [], target: i0.ɵɵFactoryTarget.Component });
+ContentComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "14.3.0", type: ContentComponent, selector: "lib-content", ngImport: i0, template: "<div>\n  <h1>Placeholder for content</h1>\n</div>\n<div>\n  <button routerLink=\"child1\">Child Route 1/Component-1</button>\n  <button routerLink=\"child2\">Child Route 2/Component-2</button>\n</div>\n\n", styles: ["div{display:flex;justify-content:center;align-items:center}button{margin-right:20px;cursor:pointer}\n"], dependencies: [{ kind: "directive", type: i1.RouterLink, selector: ":not(a):not(area)[routerLink]", inputs: ["queryParams", "fragment", "queryParamsHandling", "state", "relativeTo", "preserveFragment", "skipLocationChange", "replaceUrl", "routerLink"] }] });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "14.3.0", ngImport: i0, type: ContentComponent, decorators: [{
+            type: Component,
+            args: [{ selector: 'lib-content', template: "<div>\n  <h1>Placeholder for content</h1>\n</div>\n<div>\n  <button routerLink=\"child1\">Child Route 1/Component-1</button>\n  <button routerLink=\"child2\">Child Route 2/Component-2</button>\n</div>\n\n", styles: ["div{display:flex;justify-content:center;align-items:center}button{margin-right:20px;cursor:pointer}\n"] }]
+        }], ctorParameters: function () { return []; } });
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29udGVudC5jb21wb25lbnQuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi8uLi8uLi8uLi9wcm9qZWN0cy9kb21haW4tdmlld2VyLXRlbXBsYXRlL3NyYy9saWIvY29tcG9uZW50L3BhcmVudC9jb250ZW50L2NvbnRlbnQuY29tcG9uZW50LnRzIiwiLi4vLi4vLi4vLi4vLi4vLi4vLi4vcHJvamVjdHMvZG9tYWluLXZpZXdlci10ZW1wbGF0ZS9zcmMvbGliL2NvbXBvbmVudC9wYXJlbnQvY29udGVudC9jb250ZW50LmNvbXBvbmVudC5odG1sIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLE9BQU8sRUFBRSxTQUFTLEVBQVUsTUFBTSxlQUFlLENBQUM7OztBQU9sRCxNQUFNLE9BQU8sZ0JBQWdCO0lBRTNCLGdCQUFnQixDQUFDO0lBRWpCLFFBQVE7SUFDUixDQUFDOzs2R0FMVSxnQkFBZ0I7aUdBQWhCLGdCQUFnQixtRENQN0IsOE1BUUE7MkZERGEsZ0JBQWdCO2tCQUw1QixTQUFTOytCQUNFLGFBQWEiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBDb21wb25lbnQsIE9uSW5pdCB9IGZyb20gJ0Bhbmd1bGFyL2NvcmUnO1xuXG5AQ29tcG9uZW50KHtcbiAgc2VsZWN0b3I6ICdsaWItY29udGVudCcsXG4gIHRlbXBsYXRlVXJsOiAnLi9jb250ZW50LmNvbXBvbmVudC5odG1sJyxcbiAgc3R5bGVVcmxzOiBbJy4vY29udGVudC5jb21wb25lbnQuY3NzJ11cbn0pXG5leHBvcnQgY2xhc3MgQ29udGVudENvbXBvbmVudCBpbXBsZW1lbnRzIE9uSW5pdCB7XG5cbiAgY29uc3RydWN0b3IoKSB7IH1cblxuICBuZ09uSW5pdCgpOiB2b2lkIHtcbiAgfVxuXG59XG4iLCI8ZGl2PlxuICA8aDE+UGxhY2Vob2xkZXIgZm9yIGNvbnRlbnQ8L2gxPlxuPC9kaXY+XG48ZGl2PlxuICA8YnV0dG9uIHJvdXRlckxpbms9XCJjaGlsZDFcIj5DaGlsZCBSb3V0ZSAxL0NvbXBvbmVudC0xPC9idXR0b24+XG4gIDxidXR0b24gcm91dGVyTGluaz1cImNoaWxkMlwiPkNoaWxkIFJvdXRlIDIvQ29tcG9uZW50LTI8L2J1dHRvbj5cbjwvZGl2PlxuXG4iXX0=
