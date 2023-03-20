@@ -1,18 +1,22 @@
 {
-  "name": "my-lib",
-  "version": "0.0.0-watch+1678361419625",
+  "name": "@sap/domain-viewer-template",
+  "version": "0.0.0-watch+1678883923819",
   "peerDependencies": {
     "@angular/common": "^14.2.0",
-    "@angular/core": "^14.2.0"
+    "@angular/core": "^14.2.0",
+    "@ngx-translate/core": "^14.0.0",
+    "@ui5/webcomponents": "1.4",
+    "@angular/material": "^13.0.0",
+    "@sap/falcon-ui-pedestal": "1.34.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"
   },
-  "module": "fesm2015/my-lib.mjs",
-  "es2020": "fesm2020/my-lib.mjs",
-  "esm2020": "esm2020/my-lib.mjs",
-  "fesm2020": "fesm2020/my-lib.mjs",
-  "fesm2015": "fesm2015/my-lib.mjs",
+  "module": "fesm2015/sap-domain-viewer-template.mjs",
+  "es2020": "fesm2020/sap-domain-viewer-template.mjs",
+  "esm2020": "esm2020/sap-domain-viewer-template.mjs",
+  "fesm2020": "fesm2020/sap-domain-viewer-template.mjs",
+  "fesm2015": "fesm2015/sap-domain-viewer-template.mjs",
   "typings": "index.d.ts",
   "exports": {
     "./package.json": {
@@ -20,11 +24,11 @@
     },
     ".": {
       "types": "./index.d.ts",
-      "esm2020": "./esm2020/my-lib.mjs",
-      "es2020": "./fesm2020/my-lib.mjs",
-      "es2015": "./fesm2015/my-lib.mjs",
-      "node": "./fesm2015/my-lib.mjs",
-      "default": "./fesm2020/my-lib.mjs"
+      "esm2020": "./esm2020/sap-domain-viewer-template.mjs",
+      "es2020": "./fesm2020/sap-domain-viewer-template.mjs",
+      "es2015": "./fesm2015/sap-domain-viewer-template.mjs",
+      "node": "./fesm2015/sap-domain-viewer-template.mjs",
+      "default": "./fesm2020/sap-domain-viewer-template.mjs"
     }
   },
   "sideEffects": false
