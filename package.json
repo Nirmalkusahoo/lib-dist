@@ -1,13 +1,9 @@
 {
   "name": "@sap/domain-viewer-template",
-  "version": "0.0.0-watch+1678883923819",
+  "version": "0.0.1",
   "peerDependencies": {
-    "@angular/common": "^14.2.0",
-    "@angular/core": "^14.2.0",
-    "@ngx-translate/core": "^14.0.0",
-    "@ui5/webcomponents": "1.4",
-    "@angular/material": "^13.0.0",
-    "@sap/falcon-ui-pedestal": "1.34.0"
+    "@angular/common": "14.2.0",
+    "@angular/core": "14.2.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"
